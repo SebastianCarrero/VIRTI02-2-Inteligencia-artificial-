@@ -1,0 +1,11 @@
+python --version
+pip install virtualenv
+virtualenv mlp_env
+mlp_env\Scripts\activate
+pip install tensorflow numpy matplotlib
+pip install streamlit
+streamlit run app.py (Codigo para ejecutar la app en la termianl)
+pip freeze > requirements.txt (Sirve para guardar todas las librerias en un txt que hemos instalado en el entorno)
+git --version
+git init
+git add .
